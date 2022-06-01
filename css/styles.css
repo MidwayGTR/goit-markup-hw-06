@@ -304,6 +304,7 @@ img {
 }
 
 .modal-wraper {
+    display: inline-block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -323,10 +324,6 @@ img {
 .backdrop.is-hidden .modal-wraper {
     transform: translate(-50%, -50%) scale(0.5, 0.5) rotate(90deg);
 }
-
-
-
-
 
 .close-btn {
     position: absolute;
@@ -350,6 +347,8 @@ img {
     fill: #000000;
 
 }
+
+
 
 
 /* Specific section */
