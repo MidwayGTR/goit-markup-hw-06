@@ -509,6 +509,7 @@ img {
 
 .form-btn {
     padding: 10px 55px;
+    align-items: center;
 }
 
 
@@ -884,11 +885,11 @@ img {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe-btn {
+.subscribe-btn-group {
     position: relative;
 }
 
-.form-btn {
+.subscribe-btn {
     display: block;
     width: 200px;
     padding: 10px 10px 10px 29px;
