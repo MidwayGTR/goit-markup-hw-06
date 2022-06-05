@@ -387,6 +387,8 @@ img {
 
 .form-line {
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-coments {
@@ -443,6 +445,7 @@ img {
     color: #757575;
 }
 
+
 .form-coment {
     width: 100%;
     height: 120px;
@@ -466,11 +469,16 @@ img {
 }
 
 /* checkbox style */
+.block-form-checkbox {
+    display: flex;
+    margin-bottom: 30px;
+}
+
 .form-checkbox {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+
 }
 
 .checkbox {
