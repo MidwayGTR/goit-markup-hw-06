@@ -323,9 +323,9 @@ img {
     width: 528px;
     height: 581px;
 
-    padding: 40px;
+    padding: 40px 39px 40px 41px;
 
-    transform: translate(-50%, -50%) scale(1.1);
+    transform: translate(-50%, -50%) scale(1.0);
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -361,6 +361,8 @@ img {
     cursor: pointer;
     fill: #000000;
 
+    transition: fill var(--animation);
+
 }
 
 .close-btn:focus,
@@ -383,14 +385,18 @@ img {
     color: #212121;
 }
 
-.form-group {
-    position: relative;
-    display: block;
+.form-line {
     margin-bottom: 10px;
 }
 
-.form-group:last-child {
+.form-coments {
     margin-bottom: 20px;
+}
+
+.form-group {
+    position: relative;
+    display: block;
+
 }
 
 .form-label {
@@ -504,9 +510,16 @@ img {
 
 .form-label-checkbox {
     font-size: 14px;
-    line-height: 1.17;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.link-checkbox {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 
 .form-btn {
