@@ -386,14 +386,21 @@ img {
 }
 
 .form-line {
-    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
 }
 
-.form-coments {
+.form-line:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.form-line:last-child {
     margin-bottom: 20px;
 }
+
+/* .form-coments {
+    margin-bottom: 20px;
+} */
 
 .form-group {
     position: relative;
